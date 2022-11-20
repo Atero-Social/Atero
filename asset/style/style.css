@@ -1,0 +1,10 @@
+ul.menu.bg-base-300.p-2.rounded-box {
+    max-width: 70px;
+    margin: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
