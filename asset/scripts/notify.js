@@ -1,2 +1,3 @@
-let notify = true;
-print(notify);
+function like_notify {
+    
+}
