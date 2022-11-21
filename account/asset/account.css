@@ -1,0 +1,16 @@
+.form-control {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    user-drag: none;  
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+ }
