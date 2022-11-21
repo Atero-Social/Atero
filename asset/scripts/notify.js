@@ -1,5 +1,5 @@
 const notify = true
-const audio = new Audio("./asset/sounds/notify_sound.mp3")
+const audio = new Audio("./asset/sounds/notify_sound.mp4")
 audio.play();
 
 if (notify == true){

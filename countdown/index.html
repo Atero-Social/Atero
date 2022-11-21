@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.41.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+    <script src="./asset/scripts/notify.js"></script>
+    <link rel="stylesheet" href="./asset/style/style.css">
+    <link rel="shortcut icon" href="./asset/images/logo.ico" type="image/x-icon">
+
+
+    <title>Atero</title>
+</head>
+<body>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;        
+    }
+
+    </style>
+
+<div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+      <span class="countdown font-mono text-5xl">
+        <span style="--value:15;"></span>
+      </span>
+      days
+    </div> 
+    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+      <span class="countdown font-mono text-5xl">
+        <span style="--value:10;"></span>
+      </span>
+      hours
+    </div> 
+    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+      <span class="countdown font-mono text-5xl">
+        <span style="--value:24;"></span>
+      </span>
+      min
+    </div> 
+    <div class="flex flex-col p-2 bg-neutral rounded-box text-neutral-content">
+      <span class="countdown font-mono text-5xl">
+        <span style="--value:44;"></span>
+      </span>
+      sec
+    </div>
+  </div>
