@@ -17,6 +17,3 @@ For support, email info@atero.eu.org or join our Discord community.
 - [@DevDenis297 - Backend & Front-end](https://github.com/DevDenis29)
 
 > [**© Atero 2022**](http://atero.eu.org/)
-
-
-- npm run css
