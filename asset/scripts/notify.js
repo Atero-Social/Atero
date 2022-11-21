@@ -13,3 +13,10 @@ function notifyMe(){
 console.log(notify)
 
 
+function post_sucas_notify() {
+
+}
+
+function like_notify() {
+    
+}
